@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ronak Nathani">
+    <title>Ronak Nathani</title>
+
+    <!--Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="all">
+
+    <!--Custom CSS -->
+    <link href="css/site.css" rel="stylesheet" media="all">
+    
+    <!--Animate CSS -->
+    <!--<link href="css/animate.css" rel="stylehseet">-->
+
+    <!-- Font Awesome-->
+    
+
+    <!--<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- link rel="shortcut icon" href="images/gaussian.ico" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="Gaussian3d.ico" type="image/x-icon" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+                    
+        </head>
+            <body id="page-top" style="font-size:12px;">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                      
+                    </div>
+                    <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                    <br />
+                                        <button type="submit" value="Send" name="userid-container" class="btn btn-default id-submit">Submit</button>
+                  </div>
+                  
+                </form>
+
+                <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        
+            </body>
+    </html>
+
+
+    username = request.form["username"] # get username entered
+  year = request.form["year"]
+  if year=="2015":
+    table = "userrepo"
+  elif year=="2014":
+    table = "userrepo2014"
+  elif year=="2013":
+    table = "userrepo2013"
+  elif year=="2012":
+    table = "userrepo2012"
+  elif year=="Dec. 2011":
+    table = "userrepo2011"

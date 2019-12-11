@@ -1,5 +1,8 @@
 ﻿/*Ronak Nathani*/
 
+<<<<<<< HEAD
+
+
 body {
     overflow-x: hidden;
     /*font-family: 'Driod Serif', serif;*/
@@ -20,6 +23,22 @@ body {
 @media print{
     a[href]:after {
         display:none;
+}
+=======
+.social-buttons{
+    font-size:48px;
+    text-align: center;
+>>>>>>> origin/master
+}
+
+@media all{
+    .blue-font {
+        color:#43aaa3 !important;
+    }
+
+    .white-font {
+        color:#000000 !important;
+    }
 }
 
 .gmail{
